@@ -1,0 +1,10 @@
+[build]
+  # Directory to publish (adjust if needed)
+  publish = "build/site"
+
+  # Command to run for building the site
+  command = "npm install -g @antora/cli@3.0.0-beta.2 @antora/site-generator-default@3.0.0-beta.2 && antora antora-playbook.yml"
+
+[build.environment]
+  # Adjust Node.js version if needed
+  NODE_VERSION = "20"
