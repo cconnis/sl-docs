@@ -1,6 +1,6 @@
 site:
   title: Antora Docs
-  start_page: content::ROOT/home.adoc
+  start_page: content::ROOT/homepage.adoc
 content:
   sources:
     - url: https://github.com/caseyparnis/sl-content.git
