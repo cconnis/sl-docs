@@ -1,0 +1,6 @@
+[submodule "sl-ui"]
+	path = sl-ui
+	url = https://github.com/caseyparnis/sl-ui.git
+[submodule "sl-content"]
+	path = sl-content
+	url = https://github.com/caseyparnis/sl-content.git
