@@ -1,11 +1,11 @@
 site:
   title: Antora Docs
-  start_page: content::modules/ROOT/homepage.adoc
+  start_page: content:custom-integration:start.adoc
 content:
   sources:
-    - url: https://github.com/caseyparnis/sl-content.git
+    - url: ./sl-content
       branches: main
 ui:
   bundle:
-    url: https://github.com/caseyparnis/sl-ui.git
+    url: /Users/caseyparnis/Documents/docs-site/antora-ui-default/build/ui-bundle.zip
     snapshot: true
