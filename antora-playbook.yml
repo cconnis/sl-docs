@@ -7,5 +7,5 @@ content:
       branches: main
 ui:
   bundle:
-    url: /Users/caseyparnis/Documents/docs-site/antora-ui-default/build/ui-bundle.zip
+    url: https://github.com/caseyparnis/sl-ui/releases/download/antora/sl-ui.main.zip
     snapshot: true
