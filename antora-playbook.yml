@@ -1,6 +1,5 @@
 site:
-  title: Antora Docs
-  start_page: content:custom-integration:start.adoc
+  title: Sendlane
 content:
   sources:
     - url: ./sl-content
@@ -9,3 +8,16 @@ ui:
   bundle:
     url: https://github.com/caseyparnis/sl-ui/releases/download/antora/sl-ui.main.zip
     snapshot: true
+runtime:
+  cache_dir: ./.cache/antora
+  fetch: true
+  log:
+    format: json
+    failure_level: warn
+    level: all
+    level_format: number
+    destination:
+      file: ./antora.log
+      append: true
+      buffer_size: 4096
+      sync: false 
