@@ -4,20 +4,11 @@ content:
   sources:
     - url: ./sl-content
       branches: main
+      start_path: modules
 ui:
   bundle:
-    url: https://github.com/caseyparnis/sl-ui/releases/download/antora/sl-ui.main.zip
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
 runtime:
   cache_dir: ./.cache/antora
   fetch: true
-  log:
-    format: json
-    failure_level: warn
-    level: all
-    level_format: number
-    destination:
-      file: ./antora.log
-      append: true
-      buffer_size: 4096
-      sync: false 
