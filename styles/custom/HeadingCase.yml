@@ -1,0 +1,10 @@
+extends: capitalization
+message: "'%s' should be in sentence case"
+link: https://docs.errata.ai/vale/styles#capitalization
+level: error
+scope: heading
+match: $sentence
+style: Chicago
+exceptions:
+  - SMS
+  - Sendlane
